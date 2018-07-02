@@ -4,7 +4,7 @@ pipeline {
         stage('build') {
             steps {
                 sh 'python --version'
-		sh sh 'isFoo is ' + params.branch
+		sh 'isFoo is ' + params.branch
             }
         }
     }
